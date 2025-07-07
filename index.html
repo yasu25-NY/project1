@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Story template</title>
+    <title>Aging Tunnels | Project 1</title>
 
     <!-- Google fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -92,9 +92,24 @@
             font-size: 0.85em;
         }
 
-        .full-width figure {
-            text-align: center;
+
+        .full-width {
+            width: 100vw;
+            margin-left: calc(50% - 50vw);
         }
+        
+        .full-width img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .full-width figure {
+            text-align: center;      
+        }
+
+
+
 
         /* margin on mobile */
         @media (max-width: 640px) {
@@ -108,96 +123,100 @@
             }
         }
     </style>
+    
 </head>
 
 <body>
     <div class="content">
         <div class="header">
-            <h1>Hidden Risks in Everyday Life: Aging Tunnels </h1>
-            <p class="subhead">Here is the subhead or additional content you want to add in</p>
+            <h1>The Lingering Challenges of Aging Tunnel Infrastructure in Japan</h1>
+            <p class="subhead">Is This Really the Right Way Out? </p>
         </div>
         <div class="byline">
             <p>By <a href="https://www.linkedin.com/in/yasuka-nonomura-9b547147/">Yasuka Nonomura</a></p>
         </div>
-        <p>Japan’s infrastructure, especially its tunnels, harbors serious risks that quietly lurk beneath the 
-            surface of daily life. Many tunnels built during the country’s period of rapid economic growth are
-             now over 50 years old. As of 2023, it’s reported that about 42% of tunnels nationwide are considered 
-             deteriorated.</p>
-        <p>The Sasago Tunnel ceiling collapse in 2012, which killed nine people, was a tragic wake-up call.
-            <a href="https://xtech.nikkei.com/atcl/nxt/mag/ncr/18/00051/040300005/">平成24年 笹子トンネル天井板崩落</a> 
-            The direct cause was aging infrastructure, and the accident exposed weaknesses in maintenance and 
-            inspection systems. Since then, regular inspections every five years have become mandatory for 
-            tunnels and bridges across Japan. However, shortages of personnel and funding mean that adequate
-             maintenance is still a challenge.
-            </p>
+
+    
         <figure>
-            <img src="tunnel1.png">
-            <figcaption>Tunnel repair completion rate Crisis3</figcaption>
+                <img src="head.jpg" alt="sasago Tunnel image">
+            <figcaption>The site of the collapse in the Sasago Tunnel accident (Photo: Otsuki City Fire Department, Yamanashi Prefecture)</figcaption>
         </figure>
-
-
-
-
-        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem
-            aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
-            Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni
-            dolores eos qui ratione voluptatem sequi nesciunt.</p>
-
+    
+        <p>The 2012 ceiling collapse in the Sasago Tunnel, which killed nine people, brought nationwide attention to the risks posed by Japan’s aging tunnels. 
+            In response, the government began requiring inspections every five years, grading tunnel conditions in four categories:
         <ul>
-            <li>One thing</li>
-            <li>A second thing</li>
-            <li>A third thing</li>
-        </ul>
+            <li>I (good)</li>
+            <li> II (preventive maintenance recommended)</li>
+            <li>III (early intervention needed)</li>
+            <li>IV (urgent repairs needed)</li>
+        </ul></p>
 
-        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem
-            aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
-            Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni
-            dolores eos qui ratione voluptatem sequi nesciunt.</p>
-        <figure>
-            <img
-                src="https://static01.nyt.com/images/2024/02/01/multimedia/01eu-hungary-orban-2-ghkw/01eu-hungary-orban-2-ghkw-superJumbo.jpg?quality=75&auto=webp">
-            <figcaption>This is an image caption</figcaption>
-        </figure>
-        <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non
-            numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima
-            veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi
-            consequatur?</p>
-    </div>
-    <div class="full-width">
-        <figure>
-            <img
-                src="https://static01.nyt.com/images/2024/02/01/multimedia/01eu-hungary-orban-2-ghkw/01eu-hungary-orban-2-ghkw-superJumbo.jpg?quality=75&auto=webp">
-            <figcaption>This is another image caption, but this time it's a full-width image</figcaption>
-        </figure>
-    </div>
-    <div class="content">
-        <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti
-            atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique
-            sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p>
-        <p>Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi
-            optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est,
-            omnis dolor repellendus.</p>
-    </div>
-    <div class="full-width">
-        <figure>
-            <video src="bg-video.mp4" preload="auto" tabindex="0" playsinline autoplay loop muted></video>
-            <figcaption>This is an auto-play video. I had to edit the CSS from the original form a little, added
-                <code>max-width: 100%</code> for the <code>video</code> tag.</figcaption>
-        </figure>
-    </div>
-    <div class="content">
-        <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti
-            atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique
-            sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p>
-        <p>Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi
-            optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est,
-            omnis dolor repellendus.</p>
+        <p>The survey found that nearly all of Japan’s tunnels have issues, from minor cracks and leaks to serious structural flaws—a troubling reality 
+            for a country with vast mountainous terrain and one of the world’s largest tunnel networks.</p>
+
+
+        <iframe title="Tunnel Assessment Results" aria-label="Donut Chart" id="datawrapper-chart-H4NeS" 
+        src="https://datawrapper.dwcdn.net/H4NeS/3/" scrolling="no" frameborder="0" 
+        style="width: 0; min-width: 100% !important; border: none;" height="601" data-external="1"></iframe>
+        <script type="text/javascript">!function(){"use strict";window.addEventListener("message",function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r,i=0;r=e[i];i++)if(r.contentWindow===a.source){var d=a.data["datawrapper-height"][t]+"px";r.style.height=d}}})}();
+        </script>
+
+
+        <p>As of March 2024, just 2.6 percent of tunnels were deemed to be in good condition. The vast majority—67.2 percent—require preventive maintenance, 
+            while more than 30 percent need prompt or urgent repairs.These figures are based on aggregated reports, published as PDFs, that compile information 
+            from each operating organization and prefecture.</p>
+
+        <p>As the number of aging tunnels increases each year, those currently classified as Category II(preventive maintenance recommended)—the largest group—are expected 
+            to shift into higher-risk　categories over time. These figures represent not just the present, but the risks Japan faces in the years ahead.</p>
+        
+        <p>In response, the government and local authorities have begun repairs on tunnels under their jurisdiction, with progress reports released every few years.</p>
+        <p>By prefecture,</p>
+        
+        <iframe title="Number of Tunnels per Prefecture" aria-label="Map" id="datawrapper-chart-JOcrw" 
+        src="https://datawrapper.dwcdn.net/JOcrw/4/" scrolling="no" frameborder="0" style="width: 0; 
+        min-width: 100% !important; border: none;" height="845" data-external="1"></iframe><script type="text/javascript">
+        !function(){"use strict";window.addEventListener("message",function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r,i=0;r=e[i];i++)if(r.contentWindow===a.source){var d=a.data["datawrapper-height"][t]+"px";r.style.height=d}}})}();
+        </script>
+        <p> Source: Aggregated independently from the Ministry of Land, Infrastructure, Transport and Tourism’s Road Maintenance Annual Report PDF data. Bubble chart locations correspond to the latitude and longitude of each prefectural capital. Data retrieved via the MLIT API.</p>
+        <p> Oita tops the list with about 600 tunnels, followed by Hokkaido with just over 500, Chiba with around 470, and Hiroshima with nearly 390. Rather than reflecting industrial activity or population, these numbers mirror the mountainous geography of each region. On average, each prefecture manages roughly 400 tunnels, 
+            regardless of risk level.</p>
+        
+        <p>Next, the focus shifts to tunnels classified as Category III (early intervention needed). Areas where more than half of these tunnels 
+            have yet to undergo repairs are highlighted in red.</p>
+        
+        <iframe title="Rate of uninitiated repair work  - Risk Ⅲ  (%)" aria-label="Map" id="datawrapper-chart-R36nF" 
+        src="https://datawrapper.dwcdn.net/R36nF/8/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="636" data-external="1"></iframe>
+        <script type="text/javascript">!function(){"use strict";window.addEventListener("message",function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r,i=0;r=e[i];i++)if(r.contentWindow===a.source){var d=a.data["datawrapper-height"][t]+"px";r.style.height=d}}})}();    
+        </script>
+        <p>The data reveal that, overall, progress on renovations has been slow. Tokyo tops the list, with 90 percent of its Category III tunnels 
+            still awaiting repairs, followed by Shiga at 80 percent, and also Ishikawa and Kyoto. In contrast, 
+            prefectures with a large number of tunnels, such as Oita, Hiroshima, and Hokkaido, do not have particularly high rates of unfinished repairs.</p>
+
+        <p>This suggests that the slow pace of renovations may not simply be due to the sheer number of tunnels relative to available funding. 
+            Is it possible that these areas have fewer Category III tunnels to begin with? To answer this, it is necessary to look at both 
+            the number of Category III tunnels and the rate of unfinished repairs.</p>
+        
+        <iframe title="Tunnels &amp;amp; Rate of Uninitiated Repair Work - Risk Ⅲ" aria-label="Bullet Bars" id="datawrapper-chart-y6SFt" 
+        src="https://datawrapper.dwcdn.net/y6SFt/5/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="1302" data-external="1"></iframe>
+        <script type="text/javascript">!function(){"use strict";window.addEventListener("message",function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r,i=0;r=e[i];i++)if(r.contentWindow===a.source){var d=a.data["datawrapper-height"][t]+"px";r.style.height=d}}})}();
+        </script>
+
+        <p>Notably, Oita has managed to make steady progress on repairs despite having a large number of tunnels, and work is also advancing in Hiroshima and Hokkaido.
+             By contrast, some prefectures with seemingly ample resources, such as Tokyo and Kyoto, are lagging behind—a pattern that appears 
+             counterintuitive.</p>
+        <p>So, after checking the situation of several tunnels using Google Street View, I discovered a different fact.</p>
+        </figure>       
+            <img src="last.png" alt="another Tunnel">
+        <figcaption>The site of the collapse in the Sasago Tunnel accident (Photo: Otsuki City Fire Department, Yamanashi Prefecture)</figcaption>
+        
+        <p>Some dangerous tunnels have been closed and replaced with new roads, while others in depopulated areas are simply shut down. These abandoned closures may be a temporary fix, but letting them deteriorate is not a lasting solution.</p>
+        <p>With Japan’s declining population and shifting attitudes toward the environment, the time has come to reconsider not only how unnecessary infrastructure is decommissioned, but also whether new roads should be built at all. A more 
+            careful and phased approach to retiring and removing aging infrastructure is needed, rather than simply letting it fall into neglect.</p>
+        
+        
     </div>
     <div class="footer">
         <div class="content">
-            <p>You can find the code for this template <a href="https://github.com/jsoma/page-templates/">here</a>.
-                Delete these lines
-                when you use it, and don't forget to change the <code>title</code> tag!!!</p>
         </div>
     </div>
 </body>
